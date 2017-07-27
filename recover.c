@@ -32,7 +32,7 @@ int main (int argc, char *argv[])
     // create an array to store the 512 bytes of information - unsigned means a scale of 0 to 255 not -128 to 127
     unsigned char arr[512];
     
-    // loop until the end of the file
+    // infinite loop
     while(1)
     {
         // store the information to the address of the array
